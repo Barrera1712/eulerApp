@@ -1,0 +1,81 @@
+<!-- euler-app/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Euler Mejorado</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <main class="container">
+        <h1>Calculadora - Método de Euler Mejorado</h1>
+
+        <form id="euler-form">
+            <div>
+                <div class="info">
+                    <label for="equationHelp">Ejemplos de funciones válidas:</label>
+                    <ul id="equationHelp">
+                        <li><code>Math.sin(x)</code></li>
+                        <li><code>Math.cos(x)</code></li>
+                        <li><code>x^2 + y^2</code> (utiliza <code>**</code> para exponentes)</li>
+                        <li><code>Math.exp(x)</code></li>
+                        <li><code>Math.log(x)</code></li>
+                        <li><code>Math.sqrt(x)</code></li>
+                    </ul>
+                    <p><strong>Recuerda:</strong> Usa <code>**</code> para exponentes, y funciones como
+                        <code>Math.sin(x)</code>, <code>Math.cos(x)</code>, etc.</p>
+                </div>
+                <label>
+                    Ecuación (f(x, y) = ):
+                    <input type="text" id="equation" placeholder="Ej: x + y" required />
+                </label>
+            </div>
+
+
+            <label>
+                x₀:
+                <input type="number" step="any" id="x0" placeholder="0" required />
+            </label>
+
+            <label>
+                y₀:
+                <input type="number" step="any" id="y0" placeholder="1" required />
+            </label>
+
+            <label>
+                Paso h:
+                <input type="number" step="any" id="h" placeholder="0.1" step="0.01" required />
+            </label>
+
+            <label>
+                x final:
+                <input type="number" step="any" id="xf" placeholder="1" required />
+            </label>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <section>
+            <h2>Resultados</h2>
+            <table id="result-table">
+                <thead>
+                    <tr>
+                        <th>i</th>
+                        <th>x</th>
+                        <th>y</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="./scripts/methods/heun.js"></script>
+    <script src="./scripts/methods/methodFactory.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
