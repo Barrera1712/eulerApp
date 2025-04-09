@@ -1,4 +1,9 @@
-# EulerApp (By: Barrera Sánchez Uriel)
+# EulerApp:
+**By**: 
+- Barrera Sánchez Uriel
+- Donghu Federico Luis Mario
+- Huapilla Perez Esteban
+- López Ocampo Kevin
 
 Aplicación web para resolver ecuaciones diferenciales utilizando el método de Euler mejorado (Heun). Desarrollada completamente con HTML, CSS y JavaScript puro.
 
