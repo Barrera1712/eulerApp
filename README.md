@@ -2,6 +2,9 @@
 
 Aplicación web para resolver ecuaciones diferenciales utilizando el método de Euler mejorado (Heun). Desarrollada completamente con HTML, CSS y JavaScript puro.
 
+![Ejemplo de uso](images/ejemplo2.png)
+![Ejemplo de uso](images/ejemplo3.png)
+
 ## Descripción:
 
 EulerApp es una herramienta en línea que permite resolver ecuaciones diferenciales de primer orden utilizando el método de Euler mejorado. Ideal para estudiantes, ingenieros y cualquier persona que necesite realizar cálculos de integración numérica de forma rápida y precisa. Todo el proceso se maneja directamente en tu navegador, sin necesidad de instalaciones adicionales o configuraciones complejas.
