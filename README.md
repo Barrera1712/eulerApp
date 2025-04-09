@@ -1,5 +1,5 @@
 # EulerApp:
-**By**: 
+### **Por**:
 - Barrera Sánchez Uriel
 - Donghu Federico Luis Mario
 - Huapilla Perez Esteban
