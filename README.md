@@ -1,4 +1,5 @@
 # EulerApp (By: Barrera Sánchez Uriel)
+
 Aplicación web para resolver ecuaciones diferenciales utilizando el método de Euler mejorado (Heun). Desarrollada completamente con HTML, CSS y JavaScript puro.
 
 ## Descripción:
@@ -22,18 +23,20 @@ EulerApp es una herramienta en línea que permite resolver ecuaciones diferencia
 ## Instrucciones de Implementación:
 
 1. **Clonar o descargar el repositorio**:  
-   Puedes clonar el repositorio o descargar los archivos directamente desde GitHub.
+    Puedes clonar el repositorio o descargar los archivos directamente desde GitHub.
 
    ```bash
    git clone https://github.com/Barrera1712/eulerApp.git
+   ```
 
    O descarga el archivo ZIP desde la página de [GitHub - EulerApp](https://github.com/Barrera1712/eulerApp).
+
 2. **Abrir la aplicación**:
-    Una vez descargado o clonado el repositorio, simplemente abre el archivo `index.html` en tu navegador web.
-    No se necesita ningún servidor o configuración adicional, la aplicación funcionará directamente en tu navegador.
+   Una vez descargado o clonado el repositorio, simplemente abre el archivo `index.html` en tu navegador web.
+   No se necesita ningún servidor o configuración adicional, la aplicación funcionará directamente en tu navegador.
 3. **Usar la aplicación**:
-    La interfaz de EulerApp te permitirá ingresar la ecuación diferencial, los valores iniciales, y el paso de integración para obtener los resultados.
-    - Introduce la ecuación diferencial: La ecuación debe estar en términos de `y' = f(x, y)`.
-    - Introduce el valor inicial: El valor de `y(x0)`, donde `x0` es el valor inicial de `x`.
-    - Introduce el paso de integración: El valor de paso de integración `h`, que determina la precisión de los cálculos.
-    - Haz clic en "Calcular": Obtendrás los resultados que muestran los valores de `y` para distintos valores de `x`.
+   La interfaz de EulerApp te permitirá ingresar la ecuación diferencial, los valores iniciales, y el paso de integración para obtener los resultados.
+   - Introduce la ecuación diferencial: La ecuación debe estar en términos de `y' = f(x, y)`.
+   - Introduce el valor inicial: El valor de `y(x0)`, donde `x0` es el valor inicial de `x`.
+   - Introduce el paso de integración: El valor de paso de integración `h`, que determina la precisión de los cálculos.
+   - Haz clic en "Calcular": Obtendrás los resultados que muestran los valores de `y` para distintos valores de `x`.
